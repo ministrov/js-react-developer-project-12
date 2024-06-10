@@ -1,5 +1,9 @@
+import AuthorizationForm from '../AuthorizationForm';
+
 const Login = () => (
-  <div>Login</div>
+  <div>
+    <AuthorizationForm />
+  </div>
 );
 
 export default Login;
