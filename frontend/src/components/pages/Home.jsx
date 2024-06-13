@@ -1,5 +1,11 @@
+import Lesson from '../Lesson';
+
 const Home = () => (
-  <h1>Hexlet Hello!</h1>
+  <section>
+    <h1>Hexlet Hello!</h1>
+
+    <Lesson />
+  </section>
 );
 
 export default Home;
